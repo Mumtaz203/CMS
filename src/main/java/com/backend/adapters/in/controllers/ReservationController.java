@@ -56,6 +56,4 @@ public class ReservationController extends BaseController<ReservationEntity, Res
     public Class<? extends BaseController<ReservationEntity, ReservationDTO, Long>> getControllerClass() {
         return ReservationController.class;
     }
-
-
 }
